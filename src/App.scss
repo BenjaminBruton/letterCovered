@@ -1,0 +1,66 @@
+@use "./assets/sass/_variables.scss" as *;
+
+.app {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    // adjust width and height as needed
+    width: 50%;
+    height: 50em;
+    
+    // add padding and background color as needed
+    padding: 20px;
+    background-color: $color-white;
+    
+    // add border and border-radius as needed
+    // border: 2px solid $color-black;
+    // border-radius: 5px;
+    
+    // add box-shadow for a nice effect
+    // box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+    // add any other styles as needed
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    
+    // adjust styles for child elements as needed
+    input {
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    button {
+      font-size: 16px;
+      background-color: $color-primary;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    h1 {
+        color: $color-secondary;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    h3 {
+        color: $color-primary;
+    }
+  }
+  
